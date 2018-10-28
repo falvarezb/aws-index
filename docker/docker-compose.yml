@@ -1,0 +1,14 @@
+version: '2'
+services:
+  db:
+    build: ./mysql
+    ports:
+      - "3406:3306"
+    volumes:
+      - ./volumes/db:/var/lib/mysql
+      - ./volumes/mysql_conf:/etc/mysql/conf.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=aws-index
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin

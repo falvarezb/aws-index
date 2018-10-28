@@ -1,0 +1,11 @@
+.terraform/
+.ipynb_checkpoints/
+*.sublime-project
+*.sublime-workspace
+*.tfstate
+*.tfstate.backup
+node_modules/
+package-lock.json
+docker/volumes/db/
+ping.txt
+pingWithoutQuotes.txt
