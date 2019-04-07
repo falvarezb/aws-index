@@ -53,3 +53,9 @@ Env variables to be created:
 
 ## Application start
 Run the application in each EC2 instance with the command `node index.js`
+
+# Data analysis
+
+The folder `data_analysis` contains the .txt files with the data collected by the application during the both periods when it ran: October 2018 and March 2019.
+
+It also contains the Jupyter Notebooks used to analyse the data, one for each of the said periods.
